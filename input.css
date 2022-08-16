@@ -1,0 +1,26 @@
+/** @format */
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  a {
+  }
+
+  :root {
+    --color-primary: 255 115 179;
+    --color-secondary: 111 114 185;
+    /* ... */
+  }
+}
+@tailwind components;
+@tailwind utilities;
