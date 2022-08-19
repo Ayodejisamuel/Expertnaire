@@ -1,0 +1,466 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>TAILWIND PRACISE</title>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  <style>
+  
+  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-black shadow-lg">
+      <div class="max-w-6xl mx-auto px-4 ">
+        <div class="flex justify-between ">
+          <div class="flex space-x-7  ">
+            <!-- Website Logo -->
+            <div class="text-white mr-20">
+              <a href="#" class="flex items-center py-4 px-2 ">
+                <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2"  />
+                <span class="font-bold   text-white text-2xl  "
+                  >expertnaire</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center  space-x-1 ml-20">
+              <a
+                href=""
+                class="py-4  px-2 text-white  hover:text-white-400 font-semibold "
+                >AFFILIATES</a >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >VENDOR</a
+              >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >SUPPORT</a
+              >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >FAQS</a   >
+              <a href="" class="py-4 px-2 text-white font-semibold border-2 rounded-lg border-orange-800 hover:text-white-400 transition duration-300">LOGIN</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Code -->
+      <div class="md:hidden flex items-center text-center">
+        <button  class="outline-none items-center mx-auto block  mobile-menu-button">
+        <svg class="  block mx-auto  w-6 h-6 text-white "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu -->
+  <div class="hidden bg-gray-900  mx-auto mobile-menu">
+    <ul class="">
+      <li class="active"><a href="index.html" class="block text-sm text-center px-2 py-4 text-white   ">AFFILIATES</a></li>
+      <li><a href="#services" class="block text-sm text-center text-white px-2 py-4 transition duration-300">VENDORS</a></li>
+      <li><a href="#about" class="block text-sm px-2 text-center py-4 text-white transition duration-300">SERVICES</a></li>
+      <li><a href="#contact" class="block text-sm px-2 py-4 text-center  text-white transition duration-300">FAQS</a></li>
+      <li><a href="#contact" class="block text-sm px-2 py-4 text-center outline-orange-400  border-2 rounded-lg border-orange-800 font-semibold text-white transition duration-300">LOGIN</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }
+
+  function myFunnction() {
+  var x = document.getElementById("mydiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnction() {
+  var x = document.getElementById("mydivv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnction() {
+  var x = document.getElementById("mydivvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnction() {
+  var x = document.getElementById("mydivvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnnction() {
+  var x = document.getElementById("mydivvvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+ 
+  </script>
+  </nav>
+     </div>
+    </nav>
+
+
+
+<!-- introductory Image with Text -->
+ 
+    <div class="absolute">
+      
+  
+      <img src="IMAGES\LaptopFingers.jpg" alt="laptop" style=" background-color: black; filter: brightness(50%);  object-fit: contain;">
+      <div class="absolute top-7 md:top-16 md:mt-24 md:h-12 md:w-12 md:w-1/2 md:left-14 left-3">
+     
+        <h2 class="text-white ml-3 text-2xl md:text-5xl w-4/5 font-bold">We Distribute High Value Digital Product</h2>
+        <p class="text-white ml-3 text-lg md:text-2xl md:w-4/5">Let our network of high performing affiliates</p>
+        <p  class="text-white ml-3 text-lg md:text-2xl  md:w-4/5">  help you connect with millions of paying customers</p>
+        <button class="text-white w-1/2  font-semibold text-l ml-3 rounded-md bg-orange-500 hover:bg-orange-400 mt-4 py-2 px-7 md:py-3 md:px-7">GET STARTED</button>
+      </div>   
+      
+      <!-- What We Do -->
+       
+    <div class="bg-slate-100 h-60 md:h-80 w-full text-center">
+      <h2 class="text-black text-2xl md:text-3xl pt-12 font-bold mb-4">WHAT WE DO:</h2>
+      <p class="text-black text-md w-11/12 md:text-2xl  mx-auto md:w-1/2">Expertnaire is a digital marketplace where we help creators of digital products get more slaes and connect with more sales and connect with more customers via our platform and network of high performing affiliates</p>
+    </div>
+
+    <!-- 77000 affiliates -->
+    <div class="my-6 text-center">
+    <p class="block font-bold md:inline-block md:text-3xl px-4 text-2xl mt-3">300,000+ Products Sold</p> <p class=" md:inline-block px-4 mt-3 block font-bold md:text-3xl text-2xl">77,000+ Affiliates</p>  <p class="block  mt-3 md:inline-block font-bold px-16 md:text-3xl text-2xl">100+ Product Creators</p>
+  </div>
+
+<!-- first flex item -->
+    <div class="  bg-slate-100  h-100 md:flex lg:flex w-full">
+      <div class="md:w-3/5">
+      <h2 class="text-black text-2xl md:text-3xl w-11/12 mx-auto pt-12 font-semibold mb-4">Are You a Product Creator? Let's Help You Sell More Of Your Digital Products</h2>
+
+<p class="text-black text-md w-11/12 mx-auto  md:text-2xl ">Getting affiliates to promote your digital products is the absolute fastest way to get more paying customers.</p>
+
+<p class="text-black text-md w-11/12 mx-auto mt-3 mb-4 md:text-2xl ">Our high performing affiliates have sold over 20,000 digital products and they can help you reach more customers.</p>
+<button class="text-white  ml-5 font-semibold text-l rounded-md bg-orange-500 hover:bg-orange-400 mt-4 py-3 px-7">BECOME A VENDOR</button>
+      </div>
+
+
+      <div class="mt-8 md:mt-0 md:w-2/5 md:flex ">
+        <img class=" mx-auto object-cover" src="IMAGES\LaptopFingers.jpg" alt="laptop" style=" background-color: black; filter: brightness(50%);">
+      </div>
+  
+    
+
+    </div>
+
+    <!--  second flex item -->
+
+    <div class=" h-100 md:flex lg:flex w-full">
+
+      <div class="mt-8 md:mt-0 md:w-2/5 md:flex ">
+        <img class=" mx-auto object-cover" src="IMAGES\LaptopFingers.jpg" alt="laptop" style=" background-color: black; filter: brightness(50%);">
+      </div>
+
+      <div class=" md:w-3/5">
+        <h2 class="text-black text-2xl md:text-3xl w-11/12 mx-auto pt-12 font-semibold mb-4">Get Paid For Recommending High Value Digital Products From Top Experts</h2>
+  
+  <p class="text-black text-md w-11/12 mx-auto  md:text-2xl ">You can earn money by recommending any of the high value digital products on Expertnaire to your subscribers and followers.</p>
+  
+  <p class="text-black text-md w-11/12 mx-auto mt-3 mb-4 md:text-2xl ">All you have to do is use the unique link of each product that our system provides.</p>
+
+  <p class="text-black text-md w-11/12 mx-auto mt-3 mb-4 md:text-2xl ">Our highly effective tracking system ensures that you are compensated for the sales you refer.</p>
+
+  <button class="text-white mb-10 ml-5 font-semibold text-l rounded-md bg-orange-500 hover:bg-orange-400 mt-4 py-3 px-7">BECOME AN AFFILIATE</button>
+      </div>
+    </div>
+
+    <!-- Some Of The Products Listed On Our Platform -->
+    <div class="bg-slate-100">
+      <h2 class="text-black  font-bold text-center mx-auto  py-14 text-3xl">Some Of The Products Listed On Our Platform</h2>
+    <div class=" columns-1 md:columns-2 bg-slate-100 h-220 w-full ">
+      
+
+
+      <div class=" bg-green-50 border-4 border-black h-75 w-96  mx-auto">
+        <h3 class=" text-black font-semibold  text-center my-3 text-lg ml-4 mr-4">The No Stress Band 8 IELTS Program</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This course teaches you how to score a band 8 in Your IELTS without stress</p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N18,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          High Paid Freelancer Premium Program</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This Product Shows You a Reliable Way To Get Clients Who'll Pay Between $500-$10,000 Per Project.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N25,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+ 
+
+        
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          How to Get Sponsors for Your Music</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">How to find a sponsor or record label that will sponsor your music production and promotions within 30 days or less.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N13,700- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+
+
+           
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          Profitable Facebook Ads System</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This simple step by step training provides a blueprint for running Facebook adverts successfully for any business or budget.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N25,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+        
+       
+
+          
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          The Study In Canada Masterclass Training</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This program walks you through how you can successfully become a student in Canada and become a permanent resident as well after your education.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N25,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+ 
+    
+
+         
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          Mafia Offers</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This program shows you how To Make People Fight, Scratch, and Beg to Buy Whatever You Have For Sale, At Any Price.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N8,500- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+
+
+     
+
+        
+      <div class="bg-green-50 border-4 border-black mt-48  h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          WhatsApp Marketing Success</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This is a comprehensive online course that teaches how you can market any type of business effectively using WhatsApp
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N20,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+        
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          YouTube Profits Blueprint</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This is comprehensive video course teaches how to launch, grow and monetize a profitable Youtube channel In 90 days (or Less)
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N30,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+
+
+             
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          The Layman Guide To Writing Words That Sell</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7">This product teaches how to earn between $200 to $1000 through the skill of copywriting.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N25,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+      </div>
+
+
+
+        
+             
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          Google Ads Traffic Academy</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7"> This Training Shows You How To Effectively Use a Combination of Google Search, Youtube and Display Ads To Promote Your Business.
+
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N30,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+        </div>
+
+
+
+        
+      <div class="bg-green-50 border-4 border-black mt-10 h-75 w-96 mx-auto">
+        <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+          28-Day Body Transformation Program</h3>
+        <p class="text-gray text-md ml-4 w-11/12 mb-7"> This unique program by Nigeria's top fitness coach helps you to transform your body in as little as 28 days.
+        </p>
+        <p class=" ml-4 mb-5 font-semibold"> Price: N12,500- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+        </div>
+
+
+        <div class="bg-green-50 border-4 border-black mt-10 h-75 mb-24 w-96 mx-auto">
+          <h3 class=" text-black font-semibold w-11/12 text-center my-3 text-lg ml-4">
+            Content2Cash Masterclass</h3>
+          <p class="text-gray text-md ml-4 w-11/12 mb-7">How to create content that sells like crazy and brings in a flood of new customers every month.
+  
+          </p>
+          <p class=" ml-4 mb-5 font-semibold"> Price: N20,000- <a class="underline text-blue-600 hover:text-black" href="">See full details </a> </p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-4 block border-black w-full mb-4">
+    <!-- Frequently asked questions -->
+
+ 
+      <h2 class="text-center font-bold md:text-4xl text-3xl my-4 py-8" >Frequenlty Asked Questions</h2>
+   
+<!-- Toggle  -->
+ 
+
+<div class=" columns-1 md:columns-2 w-4/5 mx-auto">
+
+  <div class="">
+  <button class=" font-semibold p-2 bg-slate-200 w-full mx-auto mb-4 " onclick="myFunction()">What is Expertnaire All About?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="myDIV">
+  
+<p class="ml-8 mt-4 text-gray-500 ">Expertnaire is an online marketplace for the sale of high value digital products. On Expertnaire, there are 3 parties - The vendor, the affiliate and the customer.</p>
+<p class="ml-8 mt-4 text-gray-500">The vendor refers to the person who owns the product that is been sold.</p>
+<p class="ml-8 mt-4 text-gray-500">Affiliates are marketers who recommend the products on the platform to people and when any of the person they refer buys, they get a commission.</p>
+<p class="ml-8 mt-4 text-gray-500">Customers are simply those who purchase the products been sold on Expertnaire</p>
+</div>
+</div>
+
+
+<div class="">
+  <button class=" font-semibold p-2 bg-slate-200 w-full text-center mx-auto mb-4 " onclick="myFunnction()">How Do I Become An Affiliate On Expertnaire?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="mydiv"> 
+<p class="ml-8 mt-4 text-gray-500 ">
+  To sign up as an affiliate on Expertnaire, you will have to pay a yearly renewable affiliate fee of N10,000 only. <a href="" class="underline text-green-500" >Click here to sign up
+    ustomer.</a></p>
+</div>
+
+
+
+<div class="">
+  <button class=" font-semibold p-2 bg-slate-200 w-full text-center mx-auto mb-4 " onclick="myFunnnnnnction()">
+    Does Expertnaire Teach Affiliates How to Sell Products?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="mydivvvvv"> 
+<p class="ml-8 mt-4 text-gray-500 ">
+No we don't. Expertnaire only manages the platform to make it very useful to all the 3 parties interested.
+However, there are various online trainings from different vendors that interested affiliates can use to learn how to sell. We also have a telegram group where affiliates learn from one another.</a></p>
+</div>
+ 
+
+
+<div>
+  <button class=" font-semibold p-2 bg-slate-200 w-full text-center mx-auto mb-4 " onclick="myFunnnnnction()">
+    Can I List Physical Products?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="mydivvvv"> 
+<p class="ml-8 mt-4 text-gray-500 ">
+  No. The Expertnaire platform is strictly for the sales and distribution of digital products only.</a></p>
+</div>
+
+
+
+<div>
+  <button class=" font-semibold p-2 bg-slate-200 w-full text-center mx-auto  mb-4 " onclick="myFunnnnction()">
+    How am I Sure That The Products on Expertnaire Will Deliver?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="mydivvv"> 
+<p class="ml-8 mt-4 text-gray-500 ">
+ 
+
+  
+All the products listed on the platform goes through thorough check by our quality control department before it is listed, 
+we are always sure to confirm authenticity of every product before having it listed on our platform.</a></p>
+</div>
+
+
+
+<div>
+  <button class=" font-semibold p-2 bg-slate-200 w-full text-left mx-auto mb-4" onclick="myFunnnction()">
+    What Happens If I am Not Satisfied With a Product I Purchased on Expertnaire?</button>
+  <div class=" transition ease-in-out delay-150 w-full mx-auto p-2" id="mydivv"> 
+<p class="ml-8 mt-4 text-gray-500 ">
+  Majority of the products on Expertnaire (except otherwise stated) are backed by our 30-day money back guarantee.
+  What this means is that if you are not satisfied with the product you purchased from Expertnaire, you can ask for a full refund within 30 days of purchase and we will send you the refund. However, we also take note of serial "refunders" and such people are banned from the platform.</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  </body>
+</html>
