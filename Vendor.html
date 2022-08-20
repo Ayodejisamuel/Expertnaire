@@ -1,0 +1,233 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>TAILWIND PRACISE</title>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+ 
+    <script src="index.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  <style>
+  
+  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-black shadow-lg">
+      <div class="max-w-6xl mx-auto px-4 ">
+        <div class="flex justify-between ">
+          <div class="flex space-x-7  ">
+            <!-- Website Logo -->
+            <div class="text-white mr-20">
+              <a href="#" class="flex items-center py-4 px-2 ">
+                <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2"  />
+                <span class="font-bold   text-white text-2xl  "
+                  >expertnaire</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center  space-x-1 ml-20">
+
+                <a
+                href="src\index.html"
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >HOME</a
+              >
+
+
+              <a
+                href=""
+                class="py-4  px-2 text-white  hover:text-white-400 font-semibold "
+                >AFFILIATES</a >
+            
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >SUPPORT</a
+              >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >FAQS</a   >
+              <a href="" class="py-4 px-2 text-white font-semibold border-2 rounded-lg border-orange-800 hover:text-white-400 transition duration-300">LOGIN</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Code -->
+      <div class="md:hidden flex items-center text-center">
+        <button  class="outline-none items-center mx-auto block  mobile-menu-button">
+        <svg class="  block mx-auto  w-6 h-6 text-white "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu -->
+  <div class="hidden bg-gray-900  mx-auto mobile-menu">
+    <ul class="">
+        <li><a href="#contact" class="block text-sm px-2 py-4 text-center  text-white transition duration-300">HOME</a></li>
+      <li class="active"><a href="index.html" class="block text-sm text-center px-2 py-4 text-white   ">AFFILIATES</a></li>
+      <li><a href="#services" class="block text-sm text-center text-white px-2 py-4 transition duration-300">VENDORS</a></li>
+      <li><a href="#about" class="block text-sm px-2 text-center py-4 text-white transition duration-300">SERVICES</a></li>
+      <li><a href="#contact" class="block text-sm px-2 py-4 text-center outline-orange-400  border-2 rounded-lg border-orange-800 font-semibold text-white transition duration-300">LOGIN</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    </script>
+    </nav>
+
+    <div class="mt-8 border-2 border-black h-5/6 l:2/3 md:w-2/3 mb-10 w-11/12 mx-auto ">
+       <div class=" mt-6 text-gray-800 md:text-3xl text-2xl text-center font-semibold w-4/5 mx-auto">  <h2 class="">How to List Your Digital Products on the Expertnaire Marketplace as a Vendor</h2></div>
+        <hr class=" mt-2  w-11/12 mx-auto border-1 border-black">
+        <div class=""><p  class="w-11/12 mt-4 text-gray-800 md:text-lg mx-auto" >The Expertnaire marketplace is only for high value digital products and in order to keep it that way, there are certain conditions that products listed on the marketplace need to meet.</p></div>
+
+        <h2 class="text-black font-bold text-xl mt-8 text-center">FOR NEW VENDORS:</h2>
+
+        <p class="w-11/12 text-gray-800 md:text-lg mx-auto">(1) In order to list your products on the Expertnaire marketplace as a vendor, the first thing is for you to read our terms and conditions about operating as a Vendor on Expertnaire</p>
+        
+       <div class="underline my-4 text-blue-700 md:text-lg w-3/4  mx-auto text-center"> <a  href="" >Click here to read our terms and conditions</div></a>
+
+       <div class=" w-11/12 text-gray-800 md:text-lg mx-auto"><p>(2) Once you have read the terms and conditions and you are satisfied with it, the next thing is to send us details about the product you want to list on Expertnaire for approval.</p>
+
+        <p class=" text-gray-800 mt-4 md:text-lg mx-auto"> Then it is highly important that the product you are listing is your original product. We do not allow vendors to list products they have resale rights to or any product they don't originally own.</p>
+        
+       <strong class=" my-4"><p class="mt-4  md:text-lg"> Basically, The detailed we need you to send are:</p></strong>
+
+ 
+       <p class=" mt-4 text-gray-800 md:text-lg mt-4 mx-auto"> (a) The URL for the product's sales page (We can't list a product with no sales page. We also advise that you hire a good copywriter to create the sales copy for your product if you can't do it)</p>
+        
+        <p class="mt-4  text-gray-800 mt-4 md:text-lg mx-auto"> (b)Access to the product's delivery system so that we can verify if it is simple enough for buyers and also check out product quality.</p>
+        
+        <p class=" mt-4 text-gray-800 mt-4 md:text-lg mx-auto">(c) The percentage you intend to pay affiliates for each copy sold. (Note that affiliates go for products that benefit them the most)</p>
+        
+        <p class="mt-4 text-gray-800 mt-4 md:text-lg mx-auto"> (d)Your customer support information where buyers of your product can easily reach someone to help them if they have any issue with your product.</p>
+        
+        <p class=" mt-4 text-gray-800 mt-4 md:text-lg mx-auto">(e)Send these details to vendors@expertnaire.com (Use the subject line - Request For New Vendor Application).  Once we have approved your product, you will need to create a vendor account.</p>
+        
+        
+        <p class=" mt-4 text-gray-800 md:text-lg mx-auto" >(3)This account is basically for you to track your sales. The vendor registration fee is N25,000 a year and it is non refundable.</p>
+        
+       <p class=" mt-4 text-gray-800 md:text-lg mx-auto"> The registration link for vendors will be sent to you once your product has been approved.</p>
+        
+    <p class="mt-4 text-gray-800 md:text-lg mx-auto"> (4) Once you have created your vendor account, we will setup the sales page for your first product on Expertnaire and make it available to affiliates.</p>
+       </div>
+
+
+
+    <div class=" mt-15 bg-blue-200 mt-8   ">
+        <div class=" ">
+            <h2 class="text-lg font-bold text-center md:text-xl mx-auto w-4/5 py-6">PLEASE NOTE THE FOLLOWING:</h2>
+            <p class="mt-4 ml-4 mx-auto md:text-lg">Expertnaire collects the payments on your behalf, pays the affiliate and delivers the product to the buyer.</p>
+
+               <p class="mt-4 ml-4 md:text-lg"> Expertnaire charges 10% of the product cost. So, if your product is N40,000, Expertnaire charges N4,000</p>
+                
+                <p class="mt-4 ml-4 md:text-lg">We have a 30-day refund policy on all products.</p>
+                
+                <p class="mt-4 md:text-lg ml-4 pb-10">And Vendors are paid once in two weeks on Fridays.</p>
+
+        </div>
+    </div>
+
+    <div class=" mt-6 text-gray-800 text-2xl md:text-3xl text-center font-semibold w-4/5 mx-auto">  <h2 class=""> FOR REGISTERED VENDOR</h2></div>
+    <hr class=" mt-2  w-11/12 mx-auto border-1 border-black">
+    <div class=""><p  class="w-11/12 mt-4 text-gray-800 md:text-lg mx-auto" > If you are already a registered vendor on Expertnaire, all you have to do to list a new product on Expertnaire are as follows:
+    </p></div>
+
+    <h2 class="text-black font-bold text-xl mt-8 text-center">FOR NEW VENDORS:</h2>
+
+    <p class="w-11/12 ml-4 text-gray-800 md:text-lg mx-auto">(1)Send details about the new product you want to list on Expertnaire for approval </p>
+
+    <strong class=" ml-4 my-4"><p class="mt-4 ml-4 md:text-lg text-gray-800"> Basically, The detailed we need you to send are:</p></strong>
+
+ 
+       <p class=" mt-4 ml-4 text-gray-800 mt-4 md:text-lg mx-auto"> (a) The URL for the product's sales page (We can't list a product with no sales page. We also advise that you hire a good copywriter to create the sales copy for your product if you can't do it)</p>
+        
+        <p class="mt-4 ml-4  text-gray-800 mt-4 md:text-lg mx-auto"> Access to the product's delivery system so that we can verify if it is simple enough for buyers and also check out product quality.</p>
+        
+        <p class=" mt-4 ml-4 text-gray-800 mt-4 md:text-lg mx-auto">(c) The percentage you intend to pay affiliates for each copy sold. (Note that affiliates go for products that benefit them the most)</p>
+
+        <p class=" mt-4 ml-4 text-gray-800 mt-4 md:text-lg mx-auto">Send these details to vendors@expertnaire.com (Use the subject line - Request For New Vendor Application)</p>
+        
+        <p class="mt-4 ml-4 text-gray-800 mt-4 md:text-lg mx-auto"> Once we have approved your product, you will need to create a vendor account.</p>   
+        
+
+
+    </div>
+    </div>
+    </div>
+
+<!-- Footer --> 
+<div class="mt-34"> 
+    <div class="bg-gray-800 w-full h-52 ">
+      <div class="w-full text-center relative top-20 ">
+  
+  
+       <div class="inline-block  "> <a title="Connect on whatsap"
+        href=" https://www.facebook.com/expertnaire18"
+        tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-facebook fa-2x' aria-hidden="true"
+          style='color:white'></i></a>
+        </div>
+  
+          <div class="inline-block mx-8"><a title="Connect on whatsap"
+          href=" https://twitter.com/expertnaire"
+          tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-twitter fa-2x' aria-hidden="true"
+            style='color:white; '></i></a>
+          </div>
+    
+  
+          <div class="inline-block">  <a title="Connect on whatsap"
+            href=" https://youtube.com/expertnaire"
+            tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-youtube fa-2x' aria-hidden="true"
+              style='color:white'></i></a>
+            </div>
+            
+
+        </div>
+        <div class="text-white w-full "><p class="text-center">
+          Connect With Us
+        </p></div>
+        <div class="text-white w-full relative top-28 ">
+          <p class="text-center">Copyright Expertnaire 2022 All rights reserved.</p>
+        </div>
+  </div>
+ 
+</div>
+  
+  
+
+  </body></html>
+
+   
