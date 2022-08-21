@@ -1,0 +1,278 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>TAILWIND PRACISE</title>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="index.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  <style>
+  
+  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-black shadow-lg">
+      <div class="max-w-6xl mx-auto px-4 ">
+        <div class="flex justify-between ">
+          <div class="flex space-x-7  ">
+            <!-- Website Logo -->
+            <div class="text-white mr-20">
+              <a href="#" class="flex items-center py-4 px-2 ">
+                <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2"  />
+                <span class="font-bold   text-white text-2xl  "
+                  >expertnaire</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center  space-x-1 ml-20">
+              <a
+                href="afffiliate.html"
+                class="py-4  px-2 text-white  hover:text-white-400 font-semibold "
+                >AFFILIATES</a >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >VENDOR</a
+              >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >SUPPORT</a
+              >
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >FAQS</a   >
+              <a href="" class="py-4 px-2 text-white font-semibold border-2 rounded-lg border-orange-800 hover:text-white-400 transition duration-300">LOGIN</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Code -->
+      <div class="md:hidden flex items-center text-center">
+        <button  class="outline-none items-center mx-auto block  mobile-menu-button">
+        <svg class="  block mx-auto  w-6 h-6 text-white "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu -->
+  <div class="hidden bg-pink-800 mx-auto mobile-menu">
+    <ul class="">
+        <li><a href="index.html" class="block text-sm px-2 py-4 text-center  text-white transition duration-300">HOME</a></li>
+      <li class="active"><a href="afffiliate.html" class="block text-sm text-center px-2 py-4 text-white   ">AFFILIATES</a></li>
+      <li><a href="Vendor.html" class="block text-sm text-center text-white px-2 py-4 transition duration-300">VENDORS</a></li>
+      <li><a href="#about" class="block text-sm px-2 text-center py-4 text-white transition duration-300">SERVICES</a></li>
+    
+      <li><a href="#contact" class="block text-sm px-2 py-4 text-center outline-orange-400  border-2 rounded-lg border-orange-800 font-semibold text-white transition duration-300">LOGIN</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }
+
+  function myFunnction() {
+  var x = document.getElementById("mydiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnction() {
+  var x = document.getElementById("mydivv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnction() {
+  var x = document.getElementById("mydivvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnction() {
+  var x = document.getElementById("mydivvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnnction() {
+  var x = document.getElementById("mydivvvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+ 
+  </script>
+  </nav>
+     </div>
+    </nav>
+
+
+
+<!-- introductory Image with Text -->
+ 
+    <div class="absolute">
+      
+  
+      <img src="IMAGES\LaptopFingers.jpg" alt="laptop" style=" background-color: black; filter: brightness(50%);  object-fit: contain;">
+      <div class="absolute top-1  md:top-16 md:mt-24 md:h-12 md:w-12 md:w-1/2 md:left-14 left-3">
+     
+        <h2 class="text-white ml-3 text-2xl md:text-5xl leading-normal w-4/5 font-bold">EARN MONEY AS A AFFILIATE PROMOTING HIGH QUALITY PRODUCTS</h2>
+        <p class="text-white ml-3 text-lg md:text-2xl md:w-4/5">Sign up as an affiliate and start promoting any of our life transforming products.
+        </p>
+        <button class="text-white w-1/2  font-semibold text-l ml-3 rounded-md bg-orange-500 hover:bg-orange-400 mt-4 py-2 px-7 md:py-3 md:px-7">SIGN UP</button>
+      </div>   
+
+
+       <!-- What We Do -->
+       
+    <div class=" h-40 md:h-50 w-full text-center">
+        <h2 class="text-black text-2xl md:text-3xl pt-12 font-bold mb-4">HOW IT WORKS:</h2>
+        <p class="ml-4 text-black text-md w-11/12 md:text-2xl  mx-auto">It is simple to start earning money as an affiliate on Expertnaire</p>
+      </div>
+
+        <!-- 77000 affiliates -->
+    <div class="columns-1 md:columns-3" >
+        <div class="my-6 text-center">
+        <p class="block font-bold md:inline-block md:text-2xl px-4 text-lg mt-3">1. SIGN UP</p> 
+        <P class=" text-black text-md w-11/12   mx-auto mt-2 ">Fill our <a class="underline text-blue-200" href="">short affiliate signup form</a> and pay a yearly signup fee of N10,000 only</P>
+      </div>
+    
+      <div class="my-6 text-center">
+        <p class="block font-bold md:inline-block md:text-2xl px-4 text-lg mt-3">2. PROMOTE</p>  
+        <P class=" text-black text-md w-11/12 mx-auto mt-2 ">Pick any of our products and start promoting it using the affiliate link that will be provided for you.</P>
+      </div>
+    
+      
+      <div class="my-6 text-center">
+        <p class="block font-bold md:inline-block md:text-2xl px-4 text-lg mt-3">3. GET PAID</p>
+        <P class=" text-black text-md w-11/12  mx-auto mt-2">Get paid when a customer buys through your affiliate link. Commissions are deposited into your bank account every Friday.</P>
+      </div>
+    </div>
+
+    <!-- What Makes Expertnaire Special  -->
+
+    <div class="bg-slate-100 md:h-150 h-full  w-full">
+        <div class=" bg-slate-100 h-150 pb-10 w-full text-center">
+            <h2 class="text-black text-2xl md:text-3xl text-center pt-12 font-bold mb-4">What Makes Expertnaire Special</h2>
+            <div class="w-full md:w-3/5 mx-auto">
+           <div class="mx-auto ml-4 text-black   text-md mt-4 w-11/12 text-left"> <p class="ml-4 text-black  text-md mt-4 w-11/12 text-left">At Expertnaire, we try our best to only list high quality and proven to sell products in our marketplace. We do this by manually reviewing each product that is submitted to our marketplace.</p></div>
+        
+                <div class="mx-auto ml-4 text-black  text-md mt-4 w-11/12 text-left"><p class="ml-4 text-black  mt-4 text-md w-11/12 text-left   mx-auto">With this, you can be rest assured that you are really promoting helpful products to the public.</p></div>
+                
+               <div class="mx-auto ml-4 text-black text-md mt-4 w-11/12 text-left"> <p class="ml-4 text-black  mt-4 text-md w-11/12  text-left  mx-auto">This also helps your conversions as well when you decide to promote any of our products</p></div>
+                
+               <div class="mx-auto ml-4 text-black  text-md mt-4 w-11/12 text-left"> <p class="ml-4 text-black  mt-4 text-md w-11/12 text-left  mx-auto">Also, our unique affiliate tracking process ensures that your affiliate commissions are safe.</p></div>
+                
+               <div class="mx-auto ml-4 text-black  text-md mt-4 w-11/12 text-left"> <p class="ml-4 text-black  mt-4 text-md w-11/12  text-left  mx-auto">You can get started today within a few minutes and start earning some nice commissions.</p></div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Frequently asked questions -->
+
+        <div>
+            <h2 class=" mt-12 text-black text-2xl md:text-3xl text-center  font-bold mb-4">Frequently Asked Questions</h2>
+        
+           <div class="mx-auto w-80"> <button class="rounded-md bg-blue-500 p-2   mt-10 mb-10 mx-auto text-2xl font-bold  text-white  text-center">Click Here to See All FAQS</button></div>
+            
+        </div>
+
+
+
+   <!-- Footer --> 
+<div class="mt-34"> 
+    <div class="bg-gray-800 w-full h-52 ">
+      <div class="w-full text-center relative top-20 ">
+  
+  
+       <div class="inline-block  "> <a title="Connect on whatsap"
+        href=" https://www.facebook.com/expertnaire18"
+        tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-facebook fa-2x' aria-hidden="true"
+          style='color:white'></i></a>
+        </div>
+  
+          <div class="inline-block mx-8"><a title="Connect on whatsap"
+          href=" https://twitter.com/expertnaire"
+          tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-twitter fa-2x' aria-hidden="true"
+            style='color:white; '></i></a>
+          </div>
+    
+  
+          <div class="inline-block">  <a title="Connect on whatsap"
+            href=" https://youtube.com/expertnaire"
+            tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-youtube fa-2x' aria-hidden="true"
+              style='color:white'></i></a>
+            </div>
+            
+
+        </div>
+        <div class="text-white w-full "><p class="text-center">
+          Connect With Us
+        </p></div>
+        <div class="text-white w-full relative top-28 ">
+          <p class="text-center">Copyright Expertnaire 2022 All rights reserved.</p>
+        </div>
+  </div>
+ 
+</div>
+  
+
+
+  </body>
+  </html>
