@@ -1,0 +1,306 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>Contact Expertnaire</title>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="index.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  <style>
+  
+  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-black shadow-lg">
+      <div class="max-w-6xl mx-auto px-4 ">
+        <div class="flex justify-between ">
+          <div class="flex space-x-7  ">
+            <!-- Website Logo -->
+            <div class="text-white mr-20">
+              <a href="#" class="flex items-center py-4 px-2 ">
+                <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2"  />
+                <span class="font-bold   text-white text-2xl  "
+                  >expertnaire</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center  space-x-1 ml-20">
+              <a
+                href="index.html"
+                class="py-4  px-2 text-white  hover:text-white-400 font-semibold "
+                >HOME</a >
+
+                <a
+                href="afffiliate.html"
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >AFFILIATES</a
+              >
+
+
+              <a
+                href="Vendor.html"
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >VENDOR</a
+              >
+             
+              <a
+                href=""
+                class="py-4 px-2 text-white font-semibold hover:text-white-400 transition duration-300"
+                >FAQS</a   >
+              <a href="" class="py-4 px-2 text-white font-semibold border-2 rounded-lg border-orange-800 hover:text-white-400 transition duration-300">LOGIN</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Mobile Menu Code -->
+
+
+      <div class="md:hidden flex items-center text-center">
+        <button  class="outline-none items-center mx-auto block  mobile-menu-button">
+        <svg class="  block mx-auto  w-6 h-6 text-white "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu -->
+  <div class="hidden bg-gray-900  mx-auto mobile-menu">
+    <ul class="">
+      <li class="active"><a href="index.html" class="block text-sm text-center px-2 py-4 text-white   ">HOME</a></li>
+      <li><a href="afffiliate.html" class="block text-sm px-2 text-center   py-4 text-white transition duration-300">AFFILIATE</a></li>
+      <li><a href="Vendor.html" class="block text-sm text-center text-white px-2 py-4 transition duration-300">VENDORS</a></li>
+      <li><a href="#contact" class="block text-sm px-2 py-4 text-center  text-white transition duration-300">FAQS</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }
+
+  function myFunnction() {
+  var x = document.getElementById("mydiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnction() {
+  var x = document.getElementById("mydivv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnction() {
+  var x = document.getElementById("mydivvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnction() {
+  var x = document.getElementById("mydivvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunnnnnnction() {
+  var x = document.getElementById("mydivvvvv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+ 
+  </script>
+  </nav>
+     </div>
+    </nav>
+
+<!-- How Can We Help -->
+<div class=" bg-slate-200">
+<h2 class="font-bold  text-center text-black text-2xl py-8 lg:text-3xl mb-16">How Can We Help?</h2></div>
+
+<div class="mt-8 border-2 border-black h-5/6 l:2/3 md:w-2/3 mb-10 w-11/12 mx-auto">
+    <div class="w-11/12 h-150 mx-auto">
+        <h2 class="font-bold text-left  text-2xl lg:text-3xl text-black">SUBMIT A REQUEST</h2>
+        <p class="text-md text-gray-800 md:text-lg mt-8 mb-10 text-left">We usually respond to enquiries within 24 hours.</p>
+       
+        <div class="w-2/3 mx-auto">
+            <form action="GET">
+
+              <label class="text-lg mt-8 text-slate-800 font-semibold">Email</label><br>
+              <input type="email"  id="email " name="email" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto">
+              
+              <br><br><label class="text-lg text-slate-800 font-semibold">First Name</label><br>
+              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+
+
+              <br><br><label class="text-lg text-slate-800 font-semibold">Phone Number</label><br>
+              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+
+
+              <br><br><label class="text-lg text-slate-800 font-semibold">
+                Please select whether you are an Affiliate, Vendor, or Customer. If you are inquiring about a purchase please select customer</label><br>
+              <select name="option" id="select" aria-placeholder="Select An Option"  class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <option value="selecting " class="text-l ">Select An Option</option>
+              <option value="customer">Customer</option>
+              <option value="affiliate">Affiliate</option>
+              <option value="vendor">Vendor</option>
+            </select>
+
+            <br><br><label class="text-lg text-slate-800 font-semibold">Your Query</label><br>
+            <i class="text-gray-400">If your complain is about a product, please state the product name and order ID</i><p></p>
+            <textarea class="h-56 bg-gray-50 w-full mx-auto border-2 border-slate-300 rounded:sm resize-none"></textarea>
+
+
+
+              <br><br><label class="text-lg text-slate-800 font-semibold">Subject</label><br>
+              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+
+
+              <br><br><label class="text-lg text-slate-800 font-semibold">Your Expertnaire Email Address</label><br>
+              <i class="text-gray-400">Only for vendors and affiliates</i><p></p>
+              <input type="email"  id="email " name="email" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto">
+              
+
+              <br><br><label class="text-lg text-slate-800 font-semibold">Expertnaire Order ID</label><br>
+              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+
+            <button class="bg-blue-500 mb-8 mt-4 text-white font-bold text-xl p-2 text-center hover:bg-blue-400 rounded-md w-full">SUBMIT</button>
+
+
+              
+              
+            </form>
+
+            
+        </div>
+
+       
+        
+   
+
+        
+    </div>
+
+
+</div>
+
+<div class="mt-34"> 
+    <div class="bg-gray-800 w-full h-52 ">
+      <div class="w-full text-center relative top-24">
+  
+  
+       <div class="inline-block  "> <a title="Connect on whatsap"
+        href=" https://www.facebook.com/expertnaire18"
+        tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-facebook fa-2x' aria-hidden="true"
+          style='color:white'></i></a>
+        </div>
+  
+          <div class="inline-block mx-8"><a title="Connect on whatsap"
+          href=" https://twitter.com/expertnaire"
+          tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-twitter fa-2x' aria-hidden="true"
+            style='color:white; '></i></a>
+          </div>
+    
+  
+          <div class="inline-block">  <a title="Connect on whatsap"
+            href=" https://youtube.com/expertnaire"
+            tittle="Connect" target="_blank" rel="noopener"><i class='fa fa-youtube fa-2x' aria-hidden="true"
+              style='color:white'></i></a>
+            </div>
+            
+  
+  
+          </div>
+          <div class="text-white w-full   pt-4 "><p class="text-center">
+            Connect With Us
+          </p></div>
+          <div class="text-white w-full relative top-28 ">
+            <p class="text-center">Copyright Expertnaire 2022 All rights reserved.</p>
+          </div>
+    </div>
+   
+  </div>
+
+
+
+  
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
