@@ -178,22 +178,22 @@ function myFunnnnnnction() {
         <p class="text-md text-gray-800 md:text-lg mt-8 mb-10 text-left">We usually respond to enquiries within 24 hours.</p>
        
         <div class="md:w-2/3 w-full mx-auto">
-            <form action="GET">
+            <form action="" name="myForm" method="post" onsubmit = "return validateForms()">
 
               <label class="text-lg mt-8 text-slate-800 font-semibold">Email</label><br>
-              <input type="email"  id="email " name="email" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto">
+              <input type="email"  id="email " name="email" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto" required>
               
               <br><br><label class="text-lg text-slate-800 font-semibold">First Name</label><br>
-              <input type="text"  id="reno " name="firstname" placeholder="" onchange="upperCase()" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <input type="text"  id="reno " name="firstname" placeholder="" onchange="upperCase()" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto" required>
 
 
               <br><br><label class="text-lg text-slate-800 font-semibold">Phone Number</label><br>
-              <input type="number"  id="pnum" name="firstname" placeholder="" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <input type="number"  id="pnum" name="pnumber" placeholder="" class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto" required>
 
 
               <br><br><label class="text-lg text-slate-800 font-semibold">
                 Please select whether you are an Affiliate, Vendor, or Customer. If you are inquiring about a purchase please select customer</label><br>
-              <select name="option" id="select" aria-placeholder="Select An Option"  class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <select name="option" id="select" aria-placeholder="Select An Option"  class="border-box py-2 bg-gray-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto" required>
               <option value="selecting " class="text-l ">Select An Option</option>
               <option value="customer">Customer</option>
               <option value="affiliate">Affiliate</option>
@@ -207,18 +207,18 @@ function myFunnnnnnction() {
 
 
               <br><br><label class="text-lg text-slate-800 font-semibold">Subject</label><br>
-              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <input type="text"  id="fname " name="subject" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto" required>
 
 
               <br><br><label class="text-lg text-slate-800 font-semibold">Your Expertnaire Email Address</label><br>
               <i class="text-gray-400">Only for vendors and affiliates</i><p></p>
-              <input type="email"  id="email " name="email" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto">
+              <input type="email"  id="email " name="myEmail" placeholder="" class="border-box py-2 px-3 bg-gray-50 mb-2 hover:border-green-200 focus:border-2 focus:border-green-200 border-2 border-slate-300  border-slate-300 w-full mx-auto" required>
               
 
               <br><br><label class="text-lg text-slate-800 font-semibold">Expertnaire Order ID</label><br>
-              <input type="text"  id="fname " name="firstname" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto">
+              <input type="text"  id="fname " name="Exptname" placeholder="" class="border-box py-2 bg-slate-50 px-3 mb-2 focus:border-2 focus:border-green-200 border-2 border-slate-300 w-full mx-auto" required>
 
-            <button class="bg-blue-500 mb-8 mt-4 text-white font-bold text-xl p-2 text-center hover:bg-blue-400 rounded-md w-full">SUBMIT</button>
+            <input type="submit" value="Submit" class="bg-blue-500 mb-8 mt-4 text-white font-bold text-xl p-2 text-center hover:bg-blue-400 rounded-md w-full">
 
 
               
